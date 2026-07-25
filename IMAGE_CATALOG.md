@@ -23,7 +23,7 @@ Scope: article media planning only. No prose, HTML hydration, sitemap edit, depl
 
 | Image ID | Direct hotlink URL | Source page | Creator | License | License URL | Metadata inference |
 |---|---|---|---|---|---|---|
-| EXT-001 | https://upload.wikimedia.org/wikipedia/commons/a/a4/Chicago_Union_Station_1943.jpg | https://commons.wikimedia.org/wiki/File:Chicago_Union_Station_1943.jpg | Jack Delano | Public domain |  | Chicago Union Station 1943.jpg |
+| EXT-001 | https://upload.wikimedia.org/wikipedia/commons/a/a4/Chicago_Union_Station_1943.jpg | https://commons.wikimedia.org/wiki/File:Chicago_Union_Station_1943.jpg | Jack Delano | Public domain | https://commons.wikimedia.org/wiki/Commons:Public_domain | Chicago Union Station 1943.jpg |
 
 ## Article image assignments
 

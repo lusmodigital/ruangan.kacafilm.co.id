@@ -66,7 +66,7 @@ sources:
 - **Source type:** `wikimedia-commons`
 - **Placement:** after the opening has answered the main question, before the first detailed H2
 - **Exact Markdown to insert:** `![Ilustrasi Chicago Union Station 1943.jpg](https://upload.wikimedia.org/wikipedia/commons/a/a4/Chicago_Union_Station_1943.jpg)`
-- **Caption/credit:** Jack Delano — Public domain — Wikimedia Commons. [Sumber](https://commons.wikimedia.org/wiki/File:Chicago_Union_Station_1943.jpg); lisensi Public domain.
+- **Caption/credit:** Jack Delano — Public domain — Wikimedia Commons. [Sumber](https://commons.wikimedia.org/wiki/File:Chicago_Union_Station_1943.jpg); lisensi [Public domain](https://commons.wikimedia.org/wiki/Commons:Public_domain).
 - **Selection basis:** filename/source metadata identifies `Chicago Union Station 1943.jpg` as relevant content media; no pixels were inspected.
 - **Hard boundary:** do not infer or describe unseen visual details, project ownership, location, people, brands, condition, performance, or outcome.
 - **Substitution rule:** do not replace this image. If unavailable or provenance is incomplete, insert `[NEEDS IMAGE REVIEW: EXT-001]` and continue drafting the prose.
