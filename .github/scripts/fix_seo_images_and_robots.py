@@ -116,6 +116,8 @@ def detect_domain(root: Path, repo_name: Optional[str] = None) -> str:
 
     # 2. Canonical tag in index.html or first HTML
     for html_file in root.glob("*.html"):
+        if not html_file.is_file():
+            continue
         try:
             head = html_file.read_text(encoding="utf-8", errors="ignore")[:4000]
             m = re.search(r'<link\s+rel=["\']canonical["\']\s+href=["\']https?://([^/\'"]+)', head, re.I)
@@ -217,7 +219,7 @@ def discover_pages(root: Path) -> List[PageContext]:
 
     # 1. Flat root HTML files
     for f in root.glob("*.html"):
-        if f.name not in UTILITY_PAGES:
+        if f.is_file() and f.name not in UTILITY_PAGES:
             slug = f.stem
             target_href = f"/{f.name}"
             raw_pages.append((f, slug, target_href))
